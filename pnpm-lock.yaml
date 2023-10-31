@@ -4,15 +4,13 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-dependencies:
-  '@inlang/paraglide-js':
-    specifier: 1.0.0-prerelease.3
-    version: 1.0.0-prerelease.3
-
 devDependencies:
   '@fontsource/fira-mono':
     specifier: ^4.5.10
     version: 4.5.10
+  '@inlang/paraglide-js':
+    specifier: 1.0.0-prerelease.3
+    version: 1.0.0-prerelease.3
   '@neoconfetti/svelte':
     specifier: ^1.0.0
     version: 1.0.0
@@ -353,7 +351,7 @@ packages:
       '@sinclair/typebox': ^0.31.0
     dependencies:
       '@sinclair/typebox': 0.31.21
-    dev: false
+    dev: true
 
   /@inlang/language-tag@1.2.0(@sinclair/typebox@0.31.21):
     resolution: {integrity: sha512-AwKNPYPgJrhM9ebEYQvcG5PGM4v79jMPlsv2bUYEhEZzMpwIJKQo4t7P7EekMhO086sXOmeTu410Lm8abX/2Yw==}
@@ -361,7 +359,7 @@ packages:
       '@sinclair/typebox': ^0.31.0
     dependencies:
       '@sinclair/typebox': 0.31.21
-    dev: false
+    dev: true
 
   /@inlang/message-lint-rule@1.4.0(@sinclair/typebox@0.31.21):
     resolution: {integrity: sha512-imOvpxKFP2ESaWTI5W5aQiW1ukvXMvGa4KhVknssfA1ZkCkVu2EDM4aGxw11U5Rli4QQ70bxztUvfLVhd3J84A==}
@@ -374,7 +372,7 @@ packages:
       '@inlang/project-settings': 2.2.0(@sinclair/typebox@0.31.21)
       '@inlang/translatable': 1.2.0(@sinclair/typebox@0.31.21)
       '@sinclair/typebox': 0.31.21
-    dev: false
+    dev: true
 
   /@inlang/message@2.0.0(@sinclair/typebox@0.31.21):
     resolution: {integrity: sha512-RPFcbega2Cnxi78d08O7SbuXyuhEqsB819QjgloNTXWtlBFwVDkF87xAMIZN37hpM6JZzMaYv2O1ipyncU3Ccg==}
@@ -383,7 +381,7 @@ packages:
     dependencies:
       '@inlang/language-tag': 1.2.0(@sinclair/typebox@0.31.21)
       '@sinclair/typebox': 0.31.21
-    dev: false
+    dev: true
 
   /@inlang/module@1.2.0(@sinclair/typebox@0.31.21):
     resolution: {integrity: sha512-Z91zJUgliX+ddfRK+Ce4aZYlMjeNwZJOMmJ2dEUgg2cfqIFRB+gDsC5gLEY5LTkZspf/XUHoECTpK8ErVVYF5w==}
@@ -393,7 +391,7 @@ packages:
       '@inlang/message-lint-rule': 1.4.0(@sinclair/typebox@0.31.21)
       '@inlang/plugin': 2.3.0(@sinclair/typebox@0.31.21)
       '@sinclair/typebox': 0.31.21
-    dev: false
+    dev: true
 
   /@inlang/paraglide-js@1.0.0-prerelease.3:
     resolution: {integrity: sha512-9ANUVtYwrX4Il0zMHuEq2pkDvq7BxLeHGaAoHQyk8LjAETjXsDSZwIvO6uhZ1J/8v7JlmDjr95OYkAl+FnWJ9g==}
@@ -406,7 +404,7 @@ packages:
       typescript: 5.2.2
     transitivePeerDependencies:
       - babel-plugin-macros
-    dev: false
+    dev: true
 
   /@inlang/plugin@2.3.0(@sinclair/typebox@0.31.21):
     resolution: {integrity: sha512-inzGVr0kcf+8A91mN1yTvQkZaZfCsdE7tw3S2ihic01ZAK5RqVTAOO0vrOwBj1ho+2r715zQoScy89BoRReQEQ==}
@@ -420,7 +418,7 @@ packages:
       '@inlang/translatable': 1.2.0(@sinclair/typebox@0.31.21)
       '@lix-js/fs': 0.3.0
       '@sinclair/typebox': 0.31.21
-    dev: false
+    dev: true
 
   /@inlang/project-settings@2.2.0(@sinclair/typebox@0.31.21):
     resolution: {integrity: sha512-M1D150KYiYoyiHhQp627zhvo/w/M1B11ROEu2u7Jn9005mKEWZS1DDlEOsLuNRl5doHSPHfkGa9qItMtrqr0dA==}
@@ -430,11 +428,11 @@ packages:
       '@inlang/json-types': 1.1.0(@sinclair/typebox@0.31.21)
       '@inlang/language-tag': 1.2.0(@sinclair/typebox@0.31.21)
       '@sinclair/typebox': 0.31.21
-    dev: false
+    dev: true
 
   /@inlang/result@1.1.0:
     resolution: {integrity: sha512-zLGroi9EUiHuOjUOaglUVTFO7EWdo2OARMJLBO1Q5Ga/xJmSQb6XS1lhqEXBFAjgFarfEMX5YEJWWALogYV3wA==}
-    dev: false
+    dev: true
 
   /@inlang/sdk@0.16.0:
     resolution: {integrity: sha512-JAbc7Eo9t9XEfuPuHxXa8H+9FludhydaISlxLc/rJq/PQh075h4MR8Ul0OF/TKqiuOpO08KFDmqVK01mOwbkeQ==}
@@ -457,7 +455,7 @@ packages:
       throttle-debounce: 5.0.0
     transitivePeerDependencies:
       - babel-plugin-macros
-    dev: false
+    dev: true
 
   /@inlang/translatable@1.2.0(@sinclair/typebox@0.31.21):
     resolution: {integrity: sha512-Od/nBm3qigfSpYJKu/Isg0rb34ohZApNk+fOtmZ0vBZXsTBzKaYFW0SeBVqwociRCr1tj40N659Ky+RoyLcv8A==}
@@ -466,7 +464,7 @@ packages:
     dependencies:
       '@inlang/language-tag': 1.2.0(@sinclair/typebox@0.31.21)
       '@sinclair/typebox': 0.31.21
-    dev: false
+    dev: true
 
   /@jest/schemas@29.6.3:
     resolution: {integrity: sha512-mo5j5X+jIZmJQveBKeS/clAueipV7KgiX1vMgCxam1RNYiqE1w62n0/tJJnHtjW8ZHcQco5gY85jA3mi0L+nSA==}
@@ -509,7 +507,7 @@ packages:
     resolution: {integrity: sha512-OKXfToFZXSZ6eiGue/6RZC29UdOTAabObF1trAHX2QXg1WCp8iLfi8IbWCSclqWK108tn0hRShgjof0aHvtjqw==}
     dependencies:
       js-base64: 3.7.5
-    dev: false
+    dev: true
 
   /@neoconfetti/svelte@1.0.0:
     resolution: {integrity: sha512-SmksyaJAdSlMa9cTidVSIqYo1qti+WTsviNDwgjNVm+KQ3DRP2Df9umDIzC4vCcpEYY+chQe0i2IKnLw03AT8Q==}
@@ -554,7 +552,7 @@ packages:
 
   /@sinclair/typebox@0.31.21:
     resolution: {integrity: sha512-Wtq/K44EMkREaXytK+2c5DrygtYsH7ZxT0StQL8HMJz2BoOM7NZ/xfrUFBVuZxDrhJCoXf5Im282P2CCz5DHwQ==}
-    dev: false
+    dev: true
 
   /@sveltejs/adapter-auto@2.1.0(@sveltejs/kit@1.27.2):
     resolution: {integrity: sha512-o2pZCfATFtA/Gw/BB0Xm7k4EYaekXxaPGER3xGSY3FvzFJGTlJlZjBseaXwYSM94lZ0HniOjTokN3cWaLX6fow==}
@@ -1019,7 +1017,7 @@ packages:
   /commander@11.1.0:
     resolution: {integrity: sha512-yPVavfyCcRhmorC7rWlkHn15b4wDVgVmBA7kV4QVBsF7kv/9TKJAbAXVTxvTnwP8HHKjRCJDClKbciiYS7p0DQ==}
     engines: {node: '>=16'}
-    dev: false
+    dev: true
 
   /concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
@@ -1028,7 +1026,7 @@ packages:
   /consola@3.2.3:
     resolution: {integrity: sha512-I5qxpzLv+sJhTVEoLYNcTW+bThDCPsit0vLNKShZx6rLtpilNpmmeTPaeqJb9ZE9dV3DGaeby6Vuhrw38WjeyQ==}
     engines: {node: ^14.18.0 || >=16.10.0}
-    dev: false
+    dev: true
 
   /cookie@0.5.0:
     resolution: {integrity: sha512-YZ3GUyn/o8gfKJlnlX7g7xq4gyO6OSuhGPKaaGssGB2qgDUS0gPgtTvoyZLTt9Ab6dC4hfc9dV5arkvc/OCmrw==}
@@ -1060,7 +1058,7 @@ packages:
 
   /csstype@3.1.2:
     resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==}
-    dev: false
+    dev: true
 
   /debug@4.3.4:
     resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}
@@ -1081,7 +1079,7 @@ packages:
     peerDependenciesMeta:
       babel-plugin-macros:
         optional: true
-    dev: false
+    dev: true
 
   /deep-eql@4.1.3:
     resolution: {integrity: sha512-WaEtAOpRA1MQ0eohqZjpGD8zdI0Ovsm8mmFhaDN8dvDZzyoUMcYDnf5Y6iu7HTXxf8JDS23qWa4a+hKCDyOPzw==}
@@ -1097,7 +1095,7 @@ packages:
   /deepmerge-ts@5.1.0:
     resolution: {integrity: sha512-eS8dRJOckyo9maw9Tu5O5RUi/4inFLrnoLkBe3cPfDMx3WZioXtmOew4TXQaxq7Rhl4xjDtR7c6x8nNTxOvbFw==}
     engines: {node: '>=16.0.0'}
-    dev: false
+    dev: true
 
   /deepmerge@4.3.1:
     resolution: {integrity: sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==}
@@ -1543,7 +1541,7 @@ packages:
 
   /js-base64@3.7.5:
     resolution: {integrity: sha512-3MEt5DTINKqfScXKfJFrRbxkrnk2AxPWGBL/ycjz4dK8iqiSJ06UxD8jh8xuh6p10TX4t2+7FsBYVxxQbMg+qA==}
-    dev: false
+    dev: true
 
   /js-yaml@4.1.0:
     resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
@@ -2037,7 +2035,7 @@ packages:
     resolution: {integrity: sha512-JFqRobfG3q5r1l4RYVOAukk6+FWtHpXGIjgh/GEsHKweN/kK+iHOtzUALE6+P5t/jIcSNeGiVitX8gmJg+cYvQ==}
     dependencies:
       csstype: 3.1.2
-    dev: false
+    dev: true
 
   /sorcery@0.11.0:
     resolution: {integrity: sha512-J69LQ22xrQB1cIFJhPfgtLuI6BpWRiWu1Y3vSsIwK/eAScqJxd/+CJlUuHQRdX2C9NGFamq+KqNywGgaThwfHw==}
@@ -2221,7 +2219,7 @@ packages:
   /throttle-debounce@5.0.0:
     resolution: {integrity: sha512-2iQTSgkkc1Zyk0MeVrt/3BvuOXYPl/R8Z0U2xxo9rjwNciaHDG3R+Lm6dh4EeUci49DanvBnuqI6jshoQQRGEg==}
     engines: {node: '>=12.22'}
-    dev: false
+    dev: true
 
   /tiny-glob@0.2.9:
     resolution: {integrity: sha512-g/55ssRPUjShh+xkfx9UPDXqhckHEsHr4Vd9zX55oSdGZc/MD0m3sferOkwWtp98bv+kcVfEHtRJgBVJzelrzg==}
@@ -2290,6 +2288,7 @@ packages:
     resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==}
     engines: {node: '>=14.17'}
     hasBin: true
+    dev: true
 
   /ufo@1.3.1:
     resolution: {integrity: sha512-uY/99gMLIOlJPwATcMVYfqDSxUR9//AUcgZMzwfSTJPDKzA1S8mX4VLqa+fiAtveraQUBCz4FFcwVZBGbwBXIw==}
